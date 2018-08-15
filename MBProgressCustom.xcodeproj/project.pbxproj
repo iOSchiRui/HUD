@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		147B72872123E04100DC5436 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 147B72862123E04100DC5436 /* AppDelegate.m */; };
+		147B728A2123E04100DC5436 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147B72892123E04100DC5436 /* ViewController.m */; };
+		147B728D2123E04100DC5436 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147B728B2123E04100DC5436 /* Main.storyboard */; };
+		147B728F2123E04300DC5436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147B728E2123E04300DC5436 /* Assets.xcassets */; };
+		147B72922123E04300DC5436 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147B72902123E04300DC5436 /* LaunchScreen.storyboard */; };
+		147B72952123E04300DC5436 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 147B72942123E04300DC5436 /* main.m */; };
+		147B729D2123E1EB00DC5436 /* MBProgressHUD+MTCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 147B729C2123E1EB00DC5436 /* MBProgressHUD+MTCustom.m */; };
+		DFEC5458F6459FED5D55BDED /* libPods-MBProgressCustom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B9E71B3E784D97C7B112EB /* libPods-MBProgressCustom.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08B9E71B3E784D97C7B112EB /* libPods-MBProgressCustom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MBProgressCustom.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		147B72822123E04100DC5436 /* MBProgressCustom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBProgressCustom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		147B72852123E04100DC5436 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		147B72862123E04100DC5436 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		147B72882123E04100DC5436 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		147B72892123E04100DC5436 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		147B728C2123E04100DC5436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		147B728E2123E04300DC5436 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		147B72912123E04300DC5436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		147B72932123E04300DC5436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147B72942123E04300DC5436 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		147B729B2123E1EB00DC5436 /* MBProgressHUD+MTCustom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MTCustom.h"; sourceTree = "<group>"; };
+		147B729C2123E1EB00DC5436 /* MBProgressHUD+MTCustom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MTCustom.m"; sourceTree = "<group>"; };
+		7123E526803C693B66325222 /* Pods-MBProgressCustom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBProgressCustom.release.xcconfig"; path = "Pods/Target Support Files/Pods-MBProgressCustom/Pods-MBProgressCustom.release.xcconfig"; sourceTree = "<group>"; };
+		D4EB28FEB5F9D9EC8ACFFE14 /* Pods-MBProgressCustom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBProgressCustom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MBProgressCustom/Pods-MBProgressCustom.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		147B727F2123E04100DC5436 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFEC5458F6459FED5D55BDED /* libPods-MBProgressCustom.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		147B72792123E04100DC5436 = {
+			isa = PBXGroup;
+			children = (
+				147B72842123E04100DC5436 /* MBProgressCustom */,
+				147B72832123E04100DC5436 /* Products */,
+				7773060D9BDF3892E0E03617 /* Pods */,
+				D44D29F7513D603726947EE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		147B72832123E04100DC5436 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				147B72822123E04100DC5436 /* MBProgressCustom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		147B72842123E04100DC5436 /* MBProgressCustom */ = {
+			isa = PBXGroup;
+			children = (
+				147B72852123E04100DC5436 /* AppDelegate.h */,
+				147B72862123E04100DC5436 /* AppDelegate.m */,
+				147B72882123E04100DC5436 /* ViewController.h */,
+				147B72892123E04100DC5436 /* ViewController.m */,
+				147B729B2123E1EB00DC5436 /* MBProgressHUD+MTCustom.h */,
+				147B729C2123E1EB00DC5436 /* MBProgressHUD+MTCustom.m */,
+				147B728B2123E04100DC5436 /* Main.storyboard */,
+				147B728E2123E04300DC5436 /* Assets.xcassets */,
+				147B72902123E04300DC5436 /* LaunchScreen.storyboard */,
+				147B72932123E04300DC5436 /* Info.plist */,
+				147B72942123E04300DC5436 /* main.m */,
+			);
+			path = MBProgressCustom;
+			sourceTree = "<group>";
+		};
+		7773060D9BDF3892E0E03617 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4EB28FEB5F9D9EC8ACFFE14 /* Pods-MBProgressCustom.debug.xcconfig */,
+				7123E526803C693B66325222 /* Pods-MBProgressCustom.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D44D29F7513D603726947EE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08B9E71B3E784D97C7B112EB /* libPods-MBProgressCustom.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		147B72812123E04100DC5436 /* MBProgressCustom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147B72982123E04300DC5436 /* Build configuration list for PBXNativeTarget "MBProgressCustom" */;
+			buildPhases = (
+				15D3FD958969DABB2B9F9FD6 /* [CP] Check Pods Manifest.lock */,
+				147B727E2123E04100DC5436 /* Sources */,
+				147B727F2123E04100DC5436 /* Frameworks */,
+				147B72802123E04100DC5436 /* Resources */,
+				D5B7CA84AAB361C0F8912675 /* [CP] Embed Pods Frameworks */,
+				308C77789DFF3A8DCF03196A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressCustom;
+			productName = MBProgressCustom;
+			productReference = 147B72822123E04100DC5436 /* MBProgressCustom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		147B727A2123E04100DC5436 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = BFMT;
+				TargetAttributes = {
+					147B72812123E04100DC5436 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 147B727D2123E04100DC5436 /* Build configuration list for PBXProject "MBProgressCustom" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 147B72792123E04100DC5436;
+			productRefGroup = 147B72832123E04100DC5436 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				147B72812123E04100DC5436 /* MBProgressCustom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		147B72802123E04100DC5436 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147B72922123E04300DC5436 /* LaunchScreen.storyboard in Resources */,
+				147B728F2123E04300DC5436 /* Assets.xcassets in Resources */,
+				147B728D2123E04100DC5436 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15D3FD958969DABB2B9F9FD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MBProgressCustom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		308C77789DFF3A8DCF03196A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MBProgressCustom/Pods-MBProgressCustom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5B7CA84AAB361C0F8912675 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MBProgressCustom/Pods-MBProgressCustom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		147B727E2123E04100DC5436 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147B728A2123E04100DC5436 /* ViewController.m in Sources */,
+				147B72952123E04300DC5436 /* main.m in Sources */,
+				147B72872123E04100DC5436 /* AppDelegate.m in Sources */,
+				147B729D2123E1EB00DC5436 /* MBProgressHUD+MTCustom.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		147B728B2123E04100DC5436 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147B728C2123E04100DC5436 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		147B72902123E04300DC5436 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147B72912123E04300DC5436 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		147B72962123E04300DC5436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		147B72972123E04300DC5436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		147B72992123E04300DC5436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4EB28FEB5F9D9EC8ACFFE14 /* Pods-MBProgressCustom.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MBProgressCustom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BFMT.MBProgressCustom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		147B729A2123E04300DC5436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7123E526803C693B66325222 /* Pods-MBProgressCustom.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MBProgressCustom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BFMT.MBProgressCustom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		147B727D2123E04100DC5436 /* Build configuration list for PBXProject "MBProgressCustom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147B72962123E04300DC5436 /* Debug */,
+				147B72972123E04300DC5436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147B72982123E04300DC5436 /* Build configuration list for PBXNativeTarget "MBProgressCustom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147B72992123E04300DC5436 /* Debug */,
+				147B729A2123E04300DC5436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 147B727A2123E04100DC5436 /* Project object */;
+}
